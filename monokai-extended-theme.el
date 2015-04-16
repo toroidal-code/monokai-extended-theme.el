@@ -98,7 +98,7 @@
    `(cursor ((t (:background ,monokai-fg :foreground ,monokai-bg :inverse-video t))))
    `(mouse ((t (:background ,monokai-fg :foreground ,monokai-grapefruit :inverse-video t))))
    `(fringe ((t (:background ,monokai-bg))))
-   `(highlight ((t (:background ,monokai-grey))))
+   `(highlight ((t (:background ,monokai-base2))))
    `(hl-line ((t (:background ,monokai-base1))))
    `(region ((t (:background ,monokai-base2))
              (t (:inverse-video t))))
@@ -228,7 +228,7 @@
    `(whitespace-space ((t (:foreground ,monokai-base3))))
    `(trailing-whitespace ((t (:foreground ,monokai-magenta))))
    ;; Yasnippet
-   `(yas/field-highlight-face ((t (:background ,monokai-base2))))
+   `(yas/field-highlight-face ((t (:background ,monokai-grey))))
    ;; zencoding uses this
    `(tooltip ((t (:background ,monokai-fg :foreground ,monokai-fg2))))
 
